@@ -107,6 +107,10 @@ body {
     background-color: rgba(255, 255, 255, 0);
   }
 
+  .home{
+    display: block;
+  }
+
 
 
 
@@ -117,6 +121,9 @@ body {
     .sidebar-button{
         display: block;
         width: 80px;
+    }
+    .home{
+      display: none;
     }
 
 }
