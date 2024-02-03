@@ -78,7 +78,11 @@ body {
   }
   .btn-toggle-nav a:hover,
   .btn-toggle-nav a:focus {
-    background-color: #d2f4ea;
+    background-color: #d87237;
+  }
+
+  #buttonCattegory {
+    text-align: center;
   }
   
   /* .scrollarea {
@@ -88,42 +92,3 @@ body {
   /* .fw-semibold { font-weight: 600; }
   .lh-tight { line-height: 1.25; } */
   
-  
-
-.sidebar{
-    background-color: white;
-    width: 50%;
-    margin-left: 50%;
-    height: 900px;
-    position: fixed;
-    z-index: 5;
-    border: 1px;
-    border-color:black;
-    border-style: solid;
-  }
-
-  .sidebar-button{
-    display: none;
-    background-color: rgba(255, 255, 255, 0);
-  }
-
-  .home{
-    display: block;
-  }
-
-
-
-
-@media only screen and (max-width: 600px) {
-    .p-3{
-        display: none;
-    }
-    .sidebar-button{
-        display: block;
-        width: 80px;
-    }
-    .home{
-      display: none;
-    }
-
-}
